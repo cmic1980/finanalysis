@@ -64,6 +64,7 @@ ROBOTSTXT_OBEY = False
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'finanalysis.pipelines.JsonWriterPipeline': 300,
+    'finanalysis.pipelines.MysqlWriterPipeline': 800,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -88,3 +89,7 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 ROOT_PATH = "D:/data/"
+DB_SERVER_NAME = "119.8.103.176" #
+DB_SERVER_USER_NAME = "root"
+DB_SERVER_PASSWORD = "password"
+DB_NAME = "stock"

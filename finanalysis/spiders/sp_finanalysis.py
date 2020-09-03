@@ -27,18 +27,18 @@ class SpFinanalysis(scrapy.Spider):
             code = dataRow["code"]
             # EPS(基本)
             if code == "EPSJB":
-                item = self.convert_eps_item(symbol,"jb", dataRow)
+                item = self.convert_eps_item(symbol, "jb", dataRow)
                 yield item
             # EPS(稀释)
             if code == "EPSXS":
-                item = self.convert_eps_item(symbol,"xs", dataRow)
+                item = self.convert_eps_item(symbol, "xs", dataRow)
                 yield item
             # EPS(摊薄)
             if code == "EPSTB":
-                item = self.convert_eps_item(symbol,"tb", dataRow)
+                item = self.convert_eps_item(symbol, "tb", dataRow)
                 yield item
 
-    def convert_eps_item(self,symbol,type, dataRow):
+    def convert_eps_item(self, symbol, type, dataRow):
         dataRow_data_items = dataRow["data"]
         item = EPSItem()
         item["symbol"] = symbol
