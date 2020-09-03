@@ -7,6 +7,8 @@ import scrapy
 
 
 class EPSItem(scrapy.Item):
+
+
     # define the fields for your item here like:
     symbol = scrapy.Field()
     type = scrapy.Field()

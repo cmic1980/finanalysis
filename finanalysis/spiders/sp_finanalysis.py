@@ -2,6 +2,7 @@ import scrapy
 import json
 import tushare as ts
 from finanalysis.items import EPSItem
+import finanalysis.settings as settings
 
 
 class SpFinanalysis(scrapy.Spider):
@@ -14,9 +15,14 @@ class SpFinanalysis(scrapy.Spider):
         pass
 
     def parse(self, response):
-        cookies = {'cloud-sso-token': '3BC1A02286513D808BE7F665214811BF'}
-        url = self.root_url.format("002797")
-        yield scrapy.Request(url, cookies=cookies, callback=self.parse_ticker, cb_kwargs={"symbol": "002797"})
+        # 获取 股票列表
+        ts.set_token(settings.TUSHARE_TOKEN)
+        pro = ts.pro_api()
+        data = pro.stock_basic(exchange='', list_status='L', fields='symbol')
+        for symbol in data["symbol"]:
+            cookies = {'cloud-sso-token': settings.CLOUD_SSO_TOKEN}
+            url = self.root_url.format(symbol)
+            yield scrapy.Request(url, cookies=cookies, callback=self.parse_ticker, cb_kwargs={"symbol": symbol})
 
     def parse_ticker(self, response, symbol):
         body = response.body.decode('utf-8')
@@ -43,7 +49,13 @@ class SpFinanalysis(scrapy.Spider):
         item = EPSItem()
         item["symbol"] = symbol
         item["type"] = type
+
+        # 空值
         for i in range(11):
+            item["s" + str(i)] = None
+
+        l = len(dataRow_data_items)
+        for i in range(l):
             eps_jb = dataRow_data_items[i]
             item["s" + str(i)] = eps_jb
         return item
