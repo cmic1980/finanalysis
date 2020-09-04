@@ -9,6 +9,7 @@ from itemadapter import ItemAdapter
 import json
 import finanalysis.settings as settings
 import pymysql
+import finanalysis.items as items
 
 
 class JsonWriterPipeline:
@@ -32,22 +33,31 @@ class MysqlWriterPipeline:
         # 打开数据库连接
         self.db = pymysql.connect(host=settings.DB_SERVER_NAME, user=settings.DB_SERVER_USER_NAME,
                                   password=settings.DB_SERVER_PASSWORD, db=settings.DB_NAME, charset="utf8")
-        sql = "truncate esp"
 
         # 使用cursor()方法获取操作游标
         cursor = self.db.cursor()
         # 执行sql语句
-        cursor.execute(sql)
+        cursor.execute("truncate roe")
+        cursor.execute("truncate eps")
         # 提交到数据库执行
         self.db.commit()
 
     def process_item(self, item, spider):
+        table = ""
+
+        if type(item) == items.ROEItem:
+            table = "roe"
+
+        if type(item) == items.EPSItem:
+            table = "eps"
+
         # 使用cursor()方法获取操作游标
         cursor = self.db.cursor()
 
         # SQL 插入语句
-        sql = """ INSERT INTO `stock`.`esp` (`symbol`, `type`, `s0`, `s1`, `s2`, `s3`,  `s4`, `s5`, `s6`, `s7`, `s8`, `s9`, `s10`)
+        sql = """ INSERT INTO `stock`.`{}` (`symbol`, `type`, `s0`, `s1`, `s2`, `s3`,  `s4`, `s5`, `s6`, `s7`, `s8`, `s9`, `s10`)
                     VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"""
+        sql = sql.format(table)
 
         # 执行sql语句
         cursor.execute(sql, (item["symbol"], item["type"], item["s0"], item["s1"], item["s2"],

@@ -1,0 +1,2169 @@
+{
+  "code": 1,
+  "message": "success",
+  "data": {
+    "ticker": "000002",
+    "industryId": null,
+    "titleBar": [
+      {
+        "interval": "2020半年报",
+        "year": 2020,
+        "reportPeriodType": "S1"
+      },
+      {
+        "interval": "2019年报",
+        "year": 2019,
+        "reportPeriodType": "A"
+      },
+      {
+        "interval": "2018年报",
+        "year": 2018,
+        "reportPeriodType": "A"
+      },
+      {
+        "interval": "2017年报",
+        "year": 2017,
+        "reportPeriodType": "A"
+      },
+      {
+        "interval": "2016年报",
+        "year": 2016,
+        "reportPeriodType": "A"
+      },
+      {
+        "interval": "2015年报",
+        "year": 2015,
+        "reportPeriodType": "A"
+      },
+      {
+        "interval": "2014年报",
+        "year": 2014,
+        "reportPeriodType": "A"
+      },
+      {
+        "interval": "2013年报",
+        "year": 2013,
+        "reportPeriodType": "A"
+      },
+      {
+        "interval": "2012年报",
+        "year": 2012,
+        "reportPeriodType": "A"
+      },
+      {
+        "interval": "2011年报",
+        "year": 2011,
+        "reportPeriodType": "A"
+      },
+      {
+        "interval": "2010年报",
+        "year": 2010,
+        "reportPeriodType": "A"
+      }
+    ],
+    "dataRow": [
+      {
+        "code": "LRBZY",
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "fdmtItemStyle": {
+          "name": "利润表摘要",
+          "code": "LRBZY",
+          "formula": "NULL",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 7915,
+          "unit": 0,
+          "level": 1,
+          "tableDisplayName": "利润表摘要",
+          "industryCode": null
+        }
+      },
+      {
+        "code": "tRevenue",
+        "data": [
+          1.4634950672971E11,
+          3.6789387753894E11,
+          2.9767933110319E11,
+          2.4289711025052E11,
+          2.4047723692334E11,
+          1.955491300209E11,
+          1.4638800449844E11,
+          1.3541879108035E11,
+          1.0311624513642E11,
+          7.178274980068E10,
+          5.071385144263E10
+        ],
+        "fdmtItemStyle": {
+          "name": "营业总收入",
+          "code": "tRevenue",
+          "formula": "tRevenue",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 7919,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "营业总收入",
+          "industryCode": "RP102001"
+        }
+      },
+      {
+        "code": "YYSR",
+        "data": [
+          1.4634950672971E11,
+          3.6789387753894E11,
+          2.9767933110319E11,
+          2.4289711025052E11,
+          2.4047723692334E11,
+          1.955491300209E11,
+          1.4638800449844E11,
+          1.3541879108035E11,
+          1.0311624513642E11,
+          7.178274980068E10,
+          5.071385144263E10
+        ],
+        "fdmtItemStyle": {
+          "name": "营业收入",
+          "code": "YYSR",
+          "formula": "revenue",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 7920,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "营业收入",
+          "industryCode": "RP102002"
+        }
+      },
+      {
+        "code": "YYSRTB",
+        "data": [
+          5.0455,
+          23.5873,
+          22.5537,
+          1.0063,
+          22.9754,
+          33.5828,
+          8.1002,
+          31.3263,
+          43.6505,
+          41.5447,
+          3.7496
+        ],
+        "fdmtItemStyle": {
+          "name": "营业收入同比(YOY)",
+          "code": "YYSRTB",
+          "formula": "revenueYOY/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 7930,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "营业收入同比(YOY)",
+          "industryCode": "RP202002"
+        }
+      },
+      {
+        "code": "YYCB",
+        "data": [
+          9.979728740609E10,
+          2.3455033280605E11,
+          1.8610422424181E11,
+          1.6007991590343E11,
+          1.6974240343177E11,
+          1.3815062867624E11,
+          1.0255706373111E11,
+          9.279765076281E10,
+          6.5421614348E10,
+          4.322816360213E10,
+          3.007349523118E10
+        ],
+        "fdmtItemStyle": {
+          "name": "营业成本",
+          "code": "YYCB",
+          "formula": "COGS",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 7940,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "营业成本",
+          "industryCode": "RP102007"
+        }
+      },
+      {
+        "code": "YYLR",
+        "data": [
+          2.656398347845E10,
+          7.661313604154E10,
+          6.749861252227E10,
+          5.08129164084E10,
+          3.902178452023E10,
+          3.312277730251E10,
+          2.497935886778E10,
+          2.426133838714E10,
+          2.101304079406E10,
+          1.576321669719E10,
+          1.189488530823E10
+        ],
+        "fdmtItemStyle": {
+          "name": "营业利润",
+          "code": "YYLR",
+          "formula": "operateProfit",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 7950,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "营业利润",
+          "industryCode": "RP102026"
+        }
+      },
+      {
+        "code": "YYLRTB",
+        "data": [
+          -4.6381,
+          13.5033,
+          32.8375,
+          30.2168,
+          17.8095,
+          32.6006,
+          2.9595,
+          15.4585,
+          33.3043,
+          32.521,
+          36.9577
+        ],
+        "fdmtItemStyle": {
+          "name": "营业利润同比(YOY)",
+          "code": "YYLRTB",
+          "formula": "operProfitYOY/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 7960,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "营业利润同比(YOY)",
+          "industryCode": "RP202003"
+        }
+      },
+      {
+        "code": "LRZE",
+        "data": [
+          2.645044482899E10,
+          7.653928951759E10,
+          6.746020139098E10,
+          5.114195266541E10,
+          3.925361172628E10,
+          3.38026176191E10,
+          2.525236323349E10,
+          2.42910112493E10,
+          2.107018513811E10,
+          1.580588242032E10,
+          1.194075257902E10
+        ],
+        "fdmtItemStyle": {
+          "name": "利润总额",
+          "code": "LRZE",
+          "formula": "TProfit",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 7970,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "利润总额",
+          "industryCode": "RP102030"
+        }
+      },
+      {
+        "code": "LRZETB",
+        "data": [
+          -4.6005,
+          13.458399999999997,
+          31.9078,
+          30.286,
+          16.126,
+          33.8592,
+          3.9576000000000002,
+          15.2862,
+          33.306,
+          32.3692,
+          38.5652
+        ],
+        "fdmtItemStyle": {
+          "name": "利润总额同比(YOY)",
+          "code": "LRZETB",
+          "formula": "tProfitYOY/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 7980,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "利润总额同比(YOY)",
+          "industryCode": "RP202004"
+        }
+      },
+      {
+        "code": "JLR",
+        "data": [
+          1.862919438809E10,
+          5.513161457209E10,
+          4.927229453461E10,
+          3.720838733007E10,
+          2.835025548066E10,
+          2.594943802631E10,
+          1.928752402808E10,
+          1.829754987124E10,
+          1.566258842306E10,
+          1.159960621177E10,
+          8.83961050504E9
+        ],
+        "fdmtItemStyle": {
+          "name": "净利润",
+          "code": "JLR",
+          "formula": "NIncome",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 7990,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "净利润",
+          "industryCode": "RP102032"
+        }
+      },
+      {
+        "code": "JLRTB",
+        "data": [
+          -3.404,
+          11.8917,
+          32.4225,
+          31.245299999999997,
+          9.2519,
+          34.54,
+          5.4104,
+          16.8233,
+          35.0269,
+          31.223,
+          37.4743
+        ],
+        "fdmtItemStyle": {
+          "name": "净利润同比(YOY)",
+          "code": "JLRTB",
+          "formula": "NIYOY/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8000,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "净利润同比(YOY)",
+          "industryCode": "RP202005"
+        }
+      },
+      {
+        "code": "GSMGSGDDJLR",
+        "data": [
+          1.25075195565E10,
+          3.887208688132E10,
+          3.377265167861E10,
+          2.805181488236E10,
+          2.102260625656E10,
+          1.811940624927E10,
+          1.57454541447E10,
+          1.511854940578E10,
+          1.255118239223E10,
+          9.62487526823E9,
+          7.28312703915E9
+        ],
+        "fdmtItemStyle": {
+          "name": "归属母公司股东的净利润",
+          "code": "GSMGSGDDJLR",
+          "formula": "NIncomeAttrP",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8010,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "归属母公司股东的净利润",
+          "industryCode": "RP102035"
+        }
+      },
+      {
+        "code": "GSMGSGDDJLRTB",
+        "data": [
+          5.6222,
+          15.0993,
+          20.3938,
+          33.4364,
+          16.0226,
+          15.077099999999998,
+          4.1466,
+          20.4552,
+          30.403600000000004,
+          32.1531,
+          36.6508
+        ],
+        "fdmtItemStyle": {
+          "name": "归属母公司股东的净利润同比(YOY)",
+          "code": "GSMGSGDDJLRTB",
+          "formula": "niAttrPYOY/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8020,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "归属母公司股东的净利润同比(YOY)",
+          "industryCode": "RP202006"
+        }
+      },
+      {
+        "code": "FJCXSY",
+        "data": [
+          3.9331167022E8,
+          5.5769936901E8,
+          2.8257332361E8,
+          7.7227618499E8,
+          9.332739189E7,
+          5.0345603315E8,
+          1.6885804304E8,
+          4827820.42,
+          3.987929964E7,
+          5.794372175E7,
+          2.9873242188E8
+        ],
+        "fdmtItemStyle": {
+          "name": "非经常性损益",
+          "code": "FJCXSY",
+          "formula": "nrProfitLoss",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8030,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "非经常性损益",
+          "industryCode": "RP209014"
+        }
+      },
+      {
+        "code": "KCFJCXSYHJLR",
+        "data": [
+          1.211420788628E10,
+          3.831438751231E10,
+          3.3490078355E10,
+          2.727953869737E10,
+          2.092927886467E10,
+          1.761595021612E10,
+          1.557659610166E10,
+          1.511372158536E10,
+          1.251130309259E10,
+          9.56693154648E9,
+          6.98439461727E9
+        ],
+        "fdmtItemStyle": {
+          "name": "扣非后归属母公司股东的净利润",
+          "code": "KCFJCXSYHJLR",
+          "formula": "niAttrPCut",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8040,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "扣非后归属母公司股东的净利润",
+          "industryCode": "RP209015"
+        }
+      },
+      {
+        "code": "KCFJCXSYHJLRTB",
+        "data": [
+          3.1025,
+          14.4052,
+          22.7663,
+          30.3415,
+          18.8087,
+          13.092399999999998,
+          3.0626,
+          20.8005,
+          30.7766,
+          36.9758,
+          33.4852
+        ],
+        "fdmtItemStyle": {
+          "name": "扣非后归属母公司股东的净利润(同比)",
+          "code": "KCFJCXSYHJLRTB",
+          "formula": "niAttrPCutYOY/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8050,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "扣非后归属母公司股东的净利润(同比)",
+          "industryCode": null
+        }
+      },
+      {
+        "code": "EBIT",
+        "data": [
+          2.93646523103E10,
+          8.226415355771E10,
+          7.180161368793E10,
+          5.270006800573E10,
+          4.007974980749E10,
+          3.421040336584E10,
+          2.587059256602E10,
+          2.50466998823E10,
+          2.182844125635E10,
+          1.625655957356E10,
+          1.243234849676E10
+        ],
+        "fdmtItemStyle": {
+          "name": "EBIT",
+          "code": "EBIT",
+          "formula": "EBIT",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8060,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "EBIT",
+          "industryCode": "RP209011"
+        }
+      },
+      {
+        "code": "EBITDA",
+        "data": [
+          3.255767954435E10,
+          8.856975572642E10,
+          7.472354985893E10,
+          5.462910608774E10,
+          4.122838190615E10,
+          3.492620965257E10,
+          2.641949689051E10,
+          2.522593538245E10,
+          2.201106228152E10,
+          1.63938863727E10,
+          1.25491557068E10
+        ],
+        "fdmtItemStyle": {
+          "name": "EBITDA",
+          "code": "EBITDA",
+          "formula": "EBITDA",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8070,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "EBITDA",
+          "industryCode": "RP209012"
+        }
+      },
+      {
+        "code": "ZCFZBZY",
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "fdmtItemStyle": {
+          "name": "资产负债表摘要",
+          "code": "ZCFZBZY",
+          "formula": "NULL",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8075,
+          "unit": 0,
+          "level": 1,
+          "tableDisplayName": "资产负债表摘要",
+          "industryCode": null
+        }
+      },
+      {
+        "code": "LDZC",
+        "data": [
+          1.50959456665684E12,
+          1.43898935455298E12,
+          1.29507185629237E12,
+          1.0175528321483E12,
+          7.2129542785328E11,
+          5.4702437586634E11,
+          4.6480569745318E11,
+          4.4204658519961E11,
+          3.6277373733537E11,
+          2.8264665485519E11,
+          2.0552073220132E11
+        ],
+        "fdmtItemStyle": {
+          "name": "流动资产",
+          "code": "LDZC",
+          "formula": "TCA",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8080,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "流动资产",
+          "industryCode": "RP101021"
+        }
+      },
+      {
+        "code": "GDZC",
+        "data": [
+          1.190384550229E10,
+          1.239983826728E10,
+          1.153379865031E10,
+          7.0988080834E9,
+          6.81079307358E9,
+          4.91747916088E9,
+          2.30835166313E9,
+          2.12976786336E9,
+          1.61225720222E9,
+          1.59586273395E9,
+          1.21958192747E9
+        ],
+        "fdmtItemStyle": {
+          "name": "固定资产",
+          "code": "GDZC",
+          "formula": "fixedAssets",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8090,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "固定资产",
+          "industryCode": "RP101028"
+        }
+      },
+      {
+        "code": "CQGQTZ",
+        "data": [
+          1.2819164508643E11,
+          1.3047576832353E11,
+          1.2952765577247E11,
+          8.122430534659E10,
+          6.170198840962E10,
+          3.350342348802E10,
+          1.923365735771E10,
+          1.053142570834E10,
+          7.04030646429E9,
+          6.42649449965E9,
+          4.49375163116E9
+        ],
+        "fdmtItemStyle": {
+          "name": "长期股权投资",
+          "code": "CQGQTZ",
+          "formula": "LTEquityInvest",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8100,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "长期股权投资",
+          "industryCode": "RP101026"
+        }
+      },
+      {
+        "code": "ZCZJ",
+        "data": [
+          1.8061866137691E12,
+          1.72992945040123E12,
+          1.52857935647481E12,
+          1.16534691780455E12,
+          8.3067421392414E11,
+          6.1129556768929E11,
+          5.0840875541565E11,
+          4.7920532349054E11,
+          3.7880161507537E11,
+          2.9620844003005E11,
+          2.1563755174183E11
+        ],
+        "fdmtItemStyle": {
+          "name": "资产总计",
+          "code": "ZCZJ",
+          "formula": "TAssets",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8110,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "资产总计",
+          "industryCode": "RP101045"
+        }
+      },
+      {
+        "code": "ZCZJTB",
+        "data": [
+          14.5289,
+          13.172400000000001,
+          31.1695,
+          40.2893,
+          35.8875,
+          20.237,
+          6.0941,
+          26.5056,
+          27.8835,
+          37.364,
+          56.7036
+        ],
+        "fdmtItemStyle": {
+          "name": "资产总计同比(YOY)",
+          "code": "ZCZJTB",
+          "formula": "taYOY/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8120,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "资产总计同比(YOY)",
+          "industryCode": "RP202017"
+        }
+      },
+      {
+        "code": "LDFZ",
+        "data": [
+          1.31593937066179E12,
+          1.27261028401069E12,
+          1.12191393678561E12,
+          8.4735542987581E11,
+          5.7999848546307E11,
+          4.2006182688058E11,
+          3.4565403097164E11,
+          3.2892183220992E11,
+          2.5983356671109E11,
+          2.0072416031526E11,
+          1.2965079149849E11
+        ],
+        "fdmtItemStyle": {
+          "name": "流动负债",
+          "code": "LDFZ",
+          "formula": "TCL",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8130,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "流动负债",
+          "industryCode": "RP101071"
+        }
+      },
+      {
+        "code": "FLDFZ",
+        "data": [
+          1.989911360561E11,
+          1.8674005097758E11,
+          1.7104468969162E11,
+          1.3131754877045E11,
+          8.899915718007E10,
+          5.492412348769E10,
+          4.686110752404E10,
+          4.484406788199E10,
+          3.682985337618E10,
+          2.765174116776E10,
+          3.140056060093E10
+        ],
+        "fdmtItemStyle": {
+          "name": "非流动负债",
+          "code": "FLDFZ",
+          "formula": "TNCL",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8140,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "非流动负债",
+          "industryCode": "RP101083"
+        }
+      },
+      {
+        "code": "FZHJ",
+        "data": [
+          1.51493050671789E12,
+          1.45935033498827E12,
+          1.29295862647723E12,
+          9.7867297864626E11,
+          6.6899764264314E11,
+          4.7498595036827E11,
+          3.9251513849568E11,
+          3.7376590009191E11,
+          2.9666342008727E11,
+          2.2837590148302E11,
+          1.6105135209942E11
+        ],
+        "fdmtItemStyle": {
+          "name": "负债合计",
+          "code": "FZHJ",
+          "formula": "TLiab",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8150,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "负债合计",
+          "industryCode": "RP101086"
+        }
+      },
+      {
+        "code": "FZHJTB",
+        "data": [
+          12.6686,
+          12.8691,
+          32.1134,
+          46.2895,
+          40.8458,
+          21.0109,
+          5.0163,
+          25.9899,
+          29.9014,
+          41.8032,
+          74.676
+        ],
+        "fdmtItemStyle": {
+          "name": "负债合计同比(YOY)",
+          "code": "FZHJTB",
+          "formula": "tlYOY/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8160,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "负债合计同比(YOY)",
+          "industryCode": "RP202018"
+        }
+      },
+      {
+        "code": "GDQY",
+        "data": [
+          2.9125610705121E11,
+          2.7057911541296E11,
+          2.3562072999758E11,
+          1.8667393915829E11,
+          1.61676571281E11,
+          1.3630961732102E11,
+          1.1589361691997E11,
+          1.0543942339863E11,
+          8.21381949881E10,
+          6.783253854703E10,
+          5.458619964241E10
+        ],
+        "fdmtItemStyle": {
+          "name": "股东权益",
+          "code": "GDQY",
+          "formula": "TShEquity",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8170,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "股东权益",
+          "industryCode": "RP101104"
+        }
+      },
+      {
+        "code": "GDQYTB",
+        "data": [
+          25.2889,
+          14.8367,
+          26.2205,
+          15.4613,
+          18.6098,
+          17.6162,
+          9.9149,
+          28.3683,
+          21.0897,
+          24.2668,
+          20.2114
+        ],
+        "fdmtItemStyle": {
+          "name": "股东权益同比(YOY)",
+          "code": "GDQYTB",
+          "formula": "naYOY/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8171,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "股东权益同比(YOY)",
+          "industryCode": null
+        }
+      },
+      {
+        "code": "GSMGSGDDQY",
+        "data": [
+          1.9561774544649E11,
+          1.8805849191282E11,
+          1.5576413154443E11,
+          1.3267531529333E11,
+          1.1344476672265E11,
+          1.0018351782233E11,
+          8.816456990935E10,
+          7.68959833397E10,
+          6.38255539253E10,
+          5.296779501041E10,
+          4.423267679111E10
+        ],
+        "fdmtItemStyle": {
+          "name": "归属母公司股东的权益",
+          "code": "GSMGSGDDQY",
+          "formula": "TEquityAttrP",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8180,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "归属母公司股东的权益",
+          "industryCode": "RP101100"
+        }
+      },
+      {
+        "code": "GSMGSGDDQYTB",
+        "data": [
+          21.4889,
+          20.7329,
+          17.4025,
+          16.9515,
+          13.236999999999998,
+          13.6324,
+          14.654299999999997,
+          20.4784,
+          20.4988,
+          19.7481,
+          18.3455
+        ],
+        "fdmtItemStyle": {
+          "name": "归属母公司股东的权益同比(YOY)",
+          "code": "GSMGSGDDQYTB",
+          "formula": "teAttrPYOY/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8190,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "归属母公司股东的权益同比(YOY)",
+          "industryCode": "RP202020"
+        }
+      },
+      {
+        "code": "ZBGJJ",
+        "data": [
+          1.925330853195E10,
+          1.238448451399E10,
+          8.00562765357E9,
+          8.32926308901E9,
+          8.26826778215E9,
+          8.17481260965E9,
+          8.49363222215E9,
+          8.54913364046E9,
+          8.68386066782E9,
+          8.84346411819E9,
+          8.78934400884E9
+        ],
+        "fdmtItemStyle": {
+          "name": "资本公积金",
+          "code": "ZBGJJ",
+          "formula": "capitalReser",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8200,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "资本公积金",
+          "industryCode": "RP101091"
+        }
+      },
+      {
+        "code": "YYGJJ",
+        "data": [
+          7.082625410068E10,
+          7.082625410068E10,
+          4.739324604144E10,
+          3.590007182904E10,
+          3.254076783397E10,
+          2.806876672561E10,
+          2.607877578993E10,
+          2.013540972024E10,
+          1.701705138239E10,
+          1.364872745484E10,
+          1.058770632879E10
+        ],
+        "fdmtItemStyle": {
+          "name": "盈余公积金",
+          "code": "YYGJJ",
+          "formula": "surplusReser",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8210,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "盈余公积金",
+          "industryCode": "RP101094"
+        }
+      },
+      {
+        "code": "WFPLR",
+        "data": [
+          9.604881704922E10,
+          9.535203692877E10,
+          9.172485074776E10,
+          7.717185060987E10,
+          6.120026980337E10,
+          5.259785409589E10,
+          4.19928396823E10,
+          3.670688886408E10,
+          2.668809856677E10,
+          1.893461743043E10,
+          1.347028431005E10
+        ],
+        "fdmtItemStyle": {
+          "name": "未分配利润",
+          "code": "WFPLR",
+          "formula": "retainedEarnings",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8220,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "未分配利润",
+          "industryCode": "RP101096"
+        }
+      },
+      {
+        "code": "XJLLBZY",
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "fdmtItemStyle": {
+          "name": "现金流量表摘要",
+          "code": "XJLLBZY",
+          "formula": "NULL",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8225,
+          "unit": 0,
+          "level": 1,
+          "tableDisplayName": "现金流量表摘要",
+          "industryCode": null
+        }
+      },
+      {
+        "code": "XSSPTGLWSDDXJ",
+        "data": [
+          1.8041206494904E11,
+          4.3273595860282E11,
+          3.9814827044438E11,
+          3.6840522339536E11,
+          2.8653293827071E11,
+          1.9190827175468E11,
+          1.6830906759689E11,
+          1.5343706736189E11,
+          1.1610883957292E11,
+          1.0364887300182E11,
+          8.81196944933E10
+        ],
+        "fdmtItemStyle": {
+          "name": "销售商品提供劳务收到的现金",
+          "code": "XSSPTGLWSDDXJ",
+          "formula": "CFrSaleGS",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8230,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "销售商品提供劳务收到的现金",
+          "industryCode": "RP103001"
+        }
+      },
+      {
+        "code": "JYHDXJJLL",
+        "data": [
+          2.260596203688E10,
+          4.568680951508E10,
+          3.361818338852E10,
+          8.23228342165E10,
+          3.956612902169E10,
+          1.60460206915E10,
+          4.172481911336E10,
+          1.92386888989E9,
+          3.72595847252E9,
+          3.38942457192E9,
+          2.23725545145E9
+        ],
+        "fdmtItemStyle": {
+          "name": "经营活动现金净流量",
+          "code": "JYHDXJJLL",
+          "formula": "NCFOperateANotes",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8240,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "经营活动现金净流量",
+          "industryCode": null
+        }
+      },
+      {
+        "code": "GJGDZCWXZCHQTCQZCZFDXJ",
+        "data": [
+          2.35970389879E9,
+          6.24419197095E9,
+          5.89674948732E9,
+          2.36048119699E9,
+          2.14678557467E9,
+          2.06300133752E9,
+          1.8307455752E9,
+          2.43939187631E9,
+          1.5066763663E8,
+          2.61560892E8,
+          2.6193855122E8
+        ],
+        "fdmtItemStyle": {
+          "name": "购建固定资产、无形资产和其他长期资产支付的现金",
+          "code": "GJGDZCWXZCHQTCQZCZFDXJ",
+          "formula": "purFixAssetsOth",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8250,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "购建固定资产、无形资产和其他长期资产支付的现金",
+          "industryCode": "RP103033"
+        }
+      },
+      {
+        "code": "TZZFDXJ",
+        "data": [
+          4.68166128262E9,
+          2.792496931542E10,
+          4.72952339004E10,
+          4.683322803438E10,
+          3.177113289671E10,
+          1.171343403E10,
+          2.61246518289E9,
+          6.55418721647E9,
+          5.0045E8,
+          1.1950680756E9,
+          2.18384805774E9
+        ],
+        "fdmtItemStyle": {
+          "name": "投资支付的现金",
+          "code": "TZZFDXJ",
+          "formula": "CPaidInvest",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8260,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "投资支付的现金",
+          "industryCode": "RP103034"
+        }
+      },
+      {
+        "code": "TZHDCSDXJLLJE",
+        "data": [
+          1.15882152456E9,
+          -2.862673455385E10,
+          -6.736443602986E10,
+          -5.161323304251E10,
+          -4.338905014431E10,
+          -2.094748117517E10,
+          -3.48737093883E9,
+          -7.95441719485E9,
+          -2.45345173729E9,
+          -5.65256774005E9,
+          -2.19165931046E9
+        ],
+        "fdmtItemStyle": {
+          "name": "投资活动产生的现金流量净额",
+          "code": "TZHDCSDXJLLJE",
+          "formula": "NCFFrInvestA",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8270,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "投资活动产生的现金流量净额",
+          "industryCode": "RP103039"
+        }
+      },
+      {
+        "code": "XSTZSDDXJ",
+        "data": [
+          1.500006663223E10,
+          1.181428451115E10,
+          1.949129949342E10,
+          1.425382265398E10,
+          9.73525024856E9,
+          4.29604621601E9,
+          2.42238482804E9,
+          3.18353577044E9,
+          2.99112351976E9,
+          3.904944E9,
+          1.97902143508E9
+        ],
+        "fdmtItemStyle": {
+          "name": "吸收投资收到的现金",
+          "code": "XSTZSDDXJ",
+          "formula": "CFrCapContr",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8280,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "吸收投资收到的现金",
+          "industryCode": "RP103040"
+        }
+      },
+      {
+        "code": "QDJKSDDXJ",
+        "data": [
+          3.894642735827E10,
+          7.901690794238E10,
+          9.605299234052E10,
+          9.457576687515E10,
+          6.877457321513E10,
+          2.291009954216E10,
+          3.088480558798E10,
+          4.446777116647E10,
+          4.747733322087E10,
+          2.357457625994E10,
+          2.707009055102E10
+        ],
+        "fdmtItemStyle": {
+          "name": "取得借款收到的现金",
+          "code": "QDJKSDDXJ",
+          "formula": "CFrBorr",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8290,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "取得借款收到的现金",
+          "industryCode": "RP103042"
+        }
+      },
+      {
+        "code": "CZHDCSDXJLLJE",
+        "data": [
+          4.53429437168E9,
+          -3.33382104464E10,
+          4.479764809408E10,
+          5.52648962177E10,
+          3.129665060062E10,
+          -5.10391075491E9,
+          -1.961725150523E10,
+          -2.05764557799E9,
+          1.628550908895E10,
+          8.0685830673E8,
+          1.302452976281E10
+        ],
+        "fdmtItemStyle": {
+          "name": "筹资活动产生的现金流量净额",
+          "code": "CZHDCSDXJLLJE",
+          "formula": "NCFFrFinanA",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8300,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "筹资活动产生的现金流量净额",
+          "industryCode": "RP103051"
+        }
+      },
+      {
+        "code": "XJJXJDJWJZJE",
+        "data": [
+          2.840084905284E10,
+          -1.592951206669E10,
+          1.134215616735E10,
+          8.483599242561E10,
+          2.774239377975E10,
+          -9.90569850036E9,
+          1.864917049377E10,
+          -8.11607477835E9,
+          1.750611242757E10,
+          -1.48282389244E9,
+          1.309416047837E10
+        ],
+        "fdmtItemStyle": {
+          "name": "现金及现金等价物净增加额",
+          "code": "XJJXJDJWJZJE",
+          "formula": "NChangeInCash",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8310,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "现金及现金等价物净增加额",
+          "industryCode": "RP103053"
+        }
+      },
+      {
+        "code": "QMXJJXJDJWYE",
+        "data": [
+          1.881395005248E11,
+          1.5973865147196E11,
+          1.7566816353865E11,
+          1.643260073713E11,
+          7.949001494569E10,
+          5.174762116594E10,
+          6.16533196663E10,
+          4.300414917253E10,
+          5.112022395088E10,
+          3.361411152331E10,
+          3.509693541575E10
+        ],
+        "fdmtItemStyle": {
+          "name": "期末现金及现金等价物余额",
+          "code": "QMXJJXJDJWYE",
+          "formula": "NCEEndBal",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8320,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "期末现金及现金等价物余额",
+          "industryCode": "RP103055"
+        }
+      },
+      {
+        "code": "ZJYTX",
+        "data": [
+          3.19302723405E9,
+          6.30560216871E9,
+          2.921936171E9,
+          1.92903808201E9,
+          1.14863209866E9,
+          7.1580628673E8,
+          5.4890432449E8,
+          1.7923550015E8,
+          1.8262102517E8,
+          1.3732679914E8,
+          1.1680721004E8
+        ],
+        "fdmtItemStyle": {
+          "name": "折旧与摊销",
+          "code": "ZJYTX",
+          "formula": "DA",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8330,
+          "unit": 0,
+          "level": 2,
+          "tableDisplayName": "折旧与摊销",
+          "industryCode": "RP209018"
+        }
+      },
+      {
+        "code": "ZYCWZB",
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "fdmtItemStyle": {
+          "name": "主要财务指标",
+          "code": "ZYCWZB",
+          "formula": "NULL",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8335,
+          "unit": 0,
+          "level": 1,
+          "tableDisplayName": "主要财务指标",
+          "industryCode": null
+        }
+      },
+      {
+        "code": "XSSPTGLWSDDXJDIVYYSR",
+        "data": [
+          123.2748,
+          117.6252,
+          133.7507,
+          151.6713,
+          119.15179999999998,
+          98.1381,
+          114.9746,
+          113.30560000000001,
+          112.59989999999999,
+          144.3925,
+          173.7586
+        ],
+        "fdmtItemStyle": {
+          "name": "销售商品提供劳务收到的现金/营业收入",
+          "code": "XSSPTGLWSDDXJDIVYYSR",
+          "formula": "CFsgsR/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8340,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "销售商品提供劳务收到的现金/营业收入",
+          "industryCode": "RP206003"
+        }
+      },
+      {
+        "code": "XSMLL",
+        "data": [
+          31.8089,
+          36.2451,
+          37.4816,
+          34.0956,
+          29.4144,
+          29.3525,
+          29.9416,
+          31.4736,
+          36.5555,
+          39.7792,
+          40.6996
+        ],
+        "fdmtItemStyle": {
+          "name": "销售毛利率",
+          "code": "XSMLL",
+          "formula": "grossMARgin/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8350,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "销售毛利率",
+          "industryCode": "RP203001"
+        }
+      },
+      {
+        "code": "XSFYL",
+        "data": [
+          2.1762,
+          2.4585,
+          2.6431,
+          2.578,
+          2.146,
+          2.1162,
+          3.089,
+          2.8539,
+          2.964,
+          3.5618,
+          4.0997
+        ],
+        "fdmtItemStyle": {
+          "name": "销售费用率",
+          "code": "XSFYL",
+          "formula": "sellExpTR/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8360,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "销售费用率",
+          "industryCode": "RP208006"
+        }
+      },
+      {
+        "code": "GLFYL",
+        "data": [
+          3.3431,
+          3.2848999999999995,
+          3.7916,
+          3.65,
+          2.8279,
+          2.4266,
+          2.6659,
+          2.2174,
+          2.6963,
+          3.5917,
+          3.6408000000000005
+        ],
+        "fdmtItemStyle": {
+          "name": "管理费用率",
+          "code": "GLFYL",
+          "formula": "adminExpTR/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8370,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "管理费用率",
+          "industryCode": "RP208007"
+        }
+      },
+      {
+        "code": "CWFYL",
+        "data": [
+          2.2611,
+          1.5591,
+          2.0151,
+          0.8544000000000002,
+          0.662,
+          0.2443,
+          0.43779999999999997,
+          0.6585,
+          0.7416,
+          0.7102,
+          0.9943000000000001
+        ],
+        "fdmtItemStyle": {
+          "name": "财务费用率",
+          "code": "CWFYL",
+          "formula": "finanExpTR/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8380,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "财务费用率",
+          "industryCode": "RP208008"
+        }
+      },
+      {
+        "code": "YYLRL",
+        "data": [
+          18.1511,
+          20.8248,
+          22.6749,
+          20.9195,
+          16.2268,
+          16.9383,
+          17.0638,
+          17.9158,
+          20.378,
+          21.9596,
+          23.4549
+        ],
+        "fdmtItemStyle": {
+          "name": "营业利润率",
+          "code": "YYLRL",
+          "formula": "operateProfitRatio/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8381,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "营业利润率",
+          "industryCode": "RP208014"
+        }
+      },
+      {
+        "code": "EBITMARGIN",
+        "data": [
+          20.0647,
+          22.3608,
+          24.1205,
+          21.6965,
+          16.6668,
+          17.4945,
+          17.6726,
+          18.4957,
+          21.1688,
+          22.6469,
+          24.5147
+        ],
+        "fdmtItemStyle": {
+          "name": "EBIT Margin",
+          "code": "EBITMARGIN",
+          "formula": "EBITMARgin/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8400,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "EBIT Margin",
+          "industryCode": null
+        }
+      },
+      {
+        "code": "EBITDAMARGIN",
+        "data": [
+          22.2465,
+          24.0748,
+          25.102000000000004,
+          22.4906,
+          17.1444,
+          17.8606,
+          18.0476,
+          18.6281,
+          21.3459,
+          22.8382,
+          24.745
+        ],
+        "fdmtItemStyle": {
+          "name": "EBITDA Margin",
+          "code": "EBITDAMARGIN",
+          "formula": "EBITDAMARgin/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8410,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "EBITDA Margin",
+          "industryCode": null
+        }
+      },
+      {
+        "code": "SDSFL",
+        "data": [
+          29.5694,
+          27.969500000000004,
+          26.9609,
+          27.2449,
+          27.776700000000005,
+          23.2325,
+          23.6209,
+          24.6736,
+          25.6647,
+          26.612099999999998,
+          25.971100000000003
+        ],
+        "fdmtItemStyle": {
+          "name": "所得税费率",
+          "code": "SDSFL",
+          "formula": "itTp/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8420,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "所得税费率",
+          "industryCode": "RP208018"
+        }
+      },
+      {
+        "code": "XSJLRL",
+        "data": [
+          12.729200000000002,
+          14.9857,
+          16.5521,
+          15.318599999999998,
+          11.7892,
+          13.269999999999998,
+          13.1756,
+          13.5118,
+          15.1893,
+          16.1593,
+          17.4304
+        ],
+        "fdmtItemStyle": {
+          "name": "销售净利润率",
+          "code": "XSJLRL",
+          "formula": "npMARgin/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8430,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "销售净利润率",
+          "industryCode": "RP203002"
+        }
+      },
+      {
+        "code": "ROETB",
+        "data": [
+          6.393900000000001,
+          20.6702,
+          21.6819,
+          21.1432,
+          18.5311,
+          18.0862,
+          17.8592,
+          19.661,
+          19.6648,
+          18.1712,
+          16.4655
+        ],
+        "fdmtItemStyle": {
+          "name": "ROE(摊薄)",
+          "code": "ROETB",
+          "formula": "ROE/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8440,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "ROE(摊薄)",
+          "industryCode": "RP203003"
+        }
+      },
+      {
+        "code": "ROEJJPJ",
+        "data": [
+          6.4399999999999995,
+          22.47,
+          23.24,
+          22.8,
+          19.68,
+          19.14,
+          19.17,
+          21.54,
+          21.45,
+          19.83,
+          17.79
+        ],
+        "fdmtItemStyle": {
+          "name": "ROE(加权平均)",
+          "code": "ROEJJPJ",
+          "formula": "ROEW/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8450,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "ROE(加权平均)",
+          "industryCode": null
+        }
+      },
+      {
+        "code": "ROA",
+        "data": [
+          1.0537,
+          3.3839,
+          3.6580000000000004,
+          3.7282999999999995,
+          3.9321999999999995,
+          4.6351,
+          3.9058999999999995,
+          4.2651,
+          4.6407,
+          4.5325,
+          5.0048
+        ],
+        "fdmtItemStyle": {
+          "name": "ROA",
+          "code": "ROA",
+          "formula": "ROA/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8460,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "ROA",
+          "industryCode": "RP203004"
+        }
+      },
+      {
+        "code": "ROIC",
+        "data": [
+          1.8055,
+          5.6441,
+          6.783200000000001,
+          9.0298,
+          10.992,
+          11.9725,
+          9.8037,
+          10.609,
+          11.7154,
+          10.8325,
+          10.2626
+        ],
+        "fdmtItemStyle": {
+          "name": "ROIC",
+          "code": "ROIC",
+          "formula": "ROIC/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8470,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "ROIC",
+          "industryCode": "RP203006"
+        }
+      },
+      {
+        "code": "ZCFZL",
+        "data": [
+          83.8745,
+          84.359,
+          84.5856,
+          83.9813,
+          80.5367,
+          77.7015,
+          77.2046,
+          77.997,
+          78.3163,
+          77.0997,
+          74.6861
+        ],
+        "fdmtItemStyle": {
+          "name": "资产负债率",
+          "code": "ZCFZL",
+          "formula": "asseTLiabRatio/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8480,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "资产负债率",
+          "industryCode": "RP205006"
+        }
+      },
+      {
+        "code": "CQBL",
+        "data": [
+          5.2014,
+          5.3934,
+          5.4875,
+          5.2427,
+          4.1379,
+          3.4846,
+          3.3869,
+          3.5448,
+          3.6118,
+          3.3668,
+          2.9504
+        ],
+        "fdmtItemStyle": {
+          "name": "产权比率",
+          "code": "CQBL",
+          "formula": "equityRatio",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8481,
+          "unit": 3,
+          "level": 2,
+          "tableDisplayName": "产权比率",
+          "industryCode": "RP205007"
+        }
+      },
+      {
+        "code": "ZZCZZLC",
+        "data": [
+          0.0828,
+          0.2258,
+          0.221,
+          0.2434,
+          0.3335,
+          0.3493,
+          0.2964,
+          0.3157,
+          0.3055,
+          0.2805,
+          0.2871
+        ],
+        "fdmtItemStyle": {
+          "name": "总资产周转率(次)",
+          "code": "ZZCZZLC",
+          "formula": "taTurnover",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8490,
+          "unit": 3,
+          "level": 2,
+          "tableDisplayName": "总资产周转率(次)",
+          "industryCode": "RP204002"
+        }
+      },
+      {
+        "code": "YSZKZZL",
+        "data": [
+          63.2406,
+          205.8576,
+          197.2095,
+          138.4822,
+          104.8766,
+          88.7906,
+          58.8726,
+          54.5437,
+          60.6323,
+          46.1798,
+          43.9611
+        ],
+        "fdmtItemStyle": {
+          "name": "应收账款周转率(次)",
+          "code": "YSZKZZL",
+          "formula": "ARTurnover",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8491,
+          "unit": 3,
+          "level": 2,
+          "tableDisplayName": "应收账款周转率(次)",
+          "industryCode": "RP204005"
+        }
+      },
+      {
+        "code": "CHZZL",
+        "data": [
+          0.1091,
+          0.2848,
+          0.276,
+          0.3005,
+          0.4063,
+          0.4029,
+          0.3161,
+          0.3166,
+          0.2823,
+          0.253,
+          0.2692
+        ],
+        "fdmtItemStyle": {
+          "name": "存货周转率(次)",
+          "code": "CHZZL",
+          "formula": "invenTurnover",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8492,
+          "unit": 3,
+          "level": 2,
+          "tableDisplayName": "存货周转率(次)",
+          "industryCode": "RP204003"
+        }
+      },
+      {
+        "code": "LDBL",
+        "data": [
+          1.1472,
+          1.1307,
+          1.1543,
+          1.2009,
+          1.2436,
+          1.3022,
+          1.3447,
+          1.3439,
+          1.3962,
+          1.4081,
+          1.5852
+        ],
+        "fdmtItemStyle": {
+          "name": "流动比率",
+          "code": "LDBL",
+          "formula": "currentRatio",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8493,
+          "unit": 3,
+          "level": 2,
+          "tableDisplayName": "流动比率",
+          "industryCode": "RP205001"
+        }
+      },
+      {
+        "code": "SDBL",
+        "data": [
+          0.4388,
+          0.4259,
+          0.4856,
+          0.495,
+          0.4378,
+          0.4259,
+          0.4255,
+          0.3372,
+          0.4141,
+          0.3702,
+          0.5568
+        ],
+        "fdmtItemStyle": {
+          "name": "速动比率",
+          "code": "SDBL",
+          "formula": "quickRatio",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8494,
+          "unit": 3,
+          "level": 2,
+          "tableDisplayName": "速动比率",
+          "industryCode": "RP205002"
+        }
+      },
+      {
+        "code": "EPSTB",
+        "data": [
+          1.0766,
+          3.4394,
+          3.0594,
+          2.5411,
+          1.9044,
+          1.6395,
+          1.4265,
+          1.3725,
+          1.1415,
+          0.8754,
+          0.6624
+        ],
+        "fdmtItemStyle": {
+          "name": "EPS(摊薄)",
+          "code": "EPSTB",
+          "formula": "EPS",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8500,
+          "unit": 2,
+          "level": 2,
+          "tableDisplayName": "EPS(摊薄)",
+          "industryCode": "RP201001"
+        }
+      },
+      {
+        "code": "EPSJB",
+        "data": [
+          1.11,
+          3.47,
+          3.06,
+          2.54,
+          1.9,
+          1.64,
+          1.43,
+          1.37,
+          1.14,
+          0.88,
+          0.66
+        ],
+        "fdmtItemStyle": {
+          "name": "EPS(基本)",
+          "code": "EPSJB",
+          "formula": "basicEPS",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8510,
+          "unit": 2,
+          "level": 2,
+          "tableDisplayName": "EPS(基本)",
+          "industryCode": "RP201002"
+        }
+      },
+      {
+        "code": "EPSXS",
+        "data": [
+          1.11,
+          3.47,
+          3.06,
+          2.54,
+          1.9,
+          1.64,
+          1.43,
+          1.37,
+          1.14,
+          0.88,
+          0.66
+        ],
+        "fdmtItemStyle": {
+          "name": "EPS(稀释)",
+          "code": "EPSXS",
+          "formula": "dilutedEPS",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 8520,
+          "unit": 2,
+          "level": 2,
+          "tableDisplayName": "EPS(稀释)",
+          "industryCode": "RP201003"
+        }
+      },
+      {
+        "code": "GXL",
+        "data": [
+          null,
+          3.2473999999999994,
+          8.984,
+          2.8976,
+          3.8442999999999996,
+          2.9439,
+          3.6006000000000005,
+          5.1059,
+          1.7806,
+          1.7402999999999997,
+          1.2165
+        ],
+        "fdmtItemStyle": {
+          "name": "股息率",
+          "code": "GXL",
+          "formula": "divRatio/100",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 9760,
+          "unit": 1,
+          "level": 2,
+          "tableDisplayName": "股息率",
+          "industryCode": null
+        }
+      },
+      {
+        "code": "MGJZC",
+        "data": [
+          16.84,
+          16.64,
+          14.11,
+          12.0186,
+          10.28,
+          9.08,
+          7.9877,
+          6.98,
+          5.8,
+          4.82,
+          4.02
+        ],
+        "fdmtItemStyle": {
+          "name": "每股净资产",
+          "code": "MGJZC",
+          "formula": "nAssetsPS",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 10130,
+          "unit": 2,
+          "level": 2,
+          "tableDisplayName": "每股净资产",
+          "industryCode": "RP201005"
+        }
+      },
+      {
+        "code": "MGXJL",
+        "data": [
+          2.4446,
+          -1.4094,
+          1.0274,
+          7.685,
+          2.5131,
+          -0.8963,
+          1.6896,
+          -0.7368,
+          1.5921,
+          -0.1349,
+          1.1909
+        ],
+        "fdmtItemStyle": {
+          "name": "每股现金流",
+          "code": "MGXJL",
+          "formula": "nCInCashPS",
+          "yoy": false,
+          "mom": false,
+          "displayOrder": 10170,
+          "unit": 2,
+          "level": 2,
+          "tableDisplayName": "每股现金流",
+          "industryCode": "RP201015"
+        }
+      }
+    ],
+    "reportType": "SUMMARY",
+    "listDate": 665078400000
+  }
+}

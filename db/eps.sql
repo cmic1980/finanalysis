@@ -17,7 +17,7 @@ CREATE DATABASE IF NOT EXISTS `stock` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 USE `stock`;
 
 -- 导出  表 stock.esp 结构
-CREATE TABLE IF NOT EXISTS `esp` (
+CREATE TABLE IF NOT EXISTS `eps` (
   `symbol` char(6) NOT NULL,
   `type` varchar(10) NOT NULL,
   `s0` decimal(10,4) DEFAULT NULL,

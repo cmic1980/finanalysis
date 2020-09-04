@@ -2,6 +2,7 @@ import scrapy
 import json
 import tushare as ts
 from finanalysis.items import EPSItem
+from finanalysis.items import ROEItem
 import finanalysis.settings as settings
 
 
@@ -35,18 +36,46 @@ class SpFinanalysis(scrapy.Spider):
             if code == "EPSJB":
                 item = self.convert_eps_item(symbol, "jb", dataRow)
                 yield item
+
             # EPS(稀释)
             if code == "EPSXS":
                 item = self.convert_eps_item(symbol, "xs", dataRow)
                 yield item
+
             # EPS(摊薄)
             if code == "EPSTB":
                 item = self.convert_eps_item(symbol, "tb", dataRow)
                 yield item
 
+            # ROE(摊薄)
+            if code == "ROETB":
+                item = self.convert_roe_item(symbol, "tb", dataRow)
+                yield item
+
+            # ROE(加权平均)
+            if code == "ROEJJPJ":
+                item = self.convert_roe_item(symbol, "jjpj", dataRow)
+                yield item
+
     def convert_eps_item(self, symbol, type, dataRow):
         dataRow_data_items = dataRow["data"]
         item = EPSItem()
+        item["symbol"] = symbol
+        item["type"] = type
+
+        # 空值
+        for i in range(11):
+            item["s" + str(i)] = None
+
+        l = len(dataRow_data_items)
+        for i in range(l):
+            eps_jb = dataRow_data_items[i]
+            item["s" + str(i)] = eps_jb
+        return item
+
+    def convert_roe_item(self, symbol, type, dataRow):
+        dataRow_data_items = dataRow["data"]
+        item = ROEItem()
         item["symbol"] = symbol
         item["type"] = type
 
