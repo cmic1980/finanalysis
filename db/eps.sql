@@ -13,11 +13,11 @@
 
 
 -- 导出 stock 的数据库结构
-CREATE DATABASE IF NOT EXISTS `stock` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+create DATABASE IF NOT EXISTS `stock` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 USE `stock`;
 
 -- 导出  表 stock.esp 结构
-CREATE TABLE IF NOT EXISTS `eps` (
+create TABLE IF NOT EXISTS `eps` (
   `symbol` char(6) NOT NULL,
   `type` varchar(10) NOT NULL,
   `s0` decimal(10,4) DEFAULT NULL,
@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `eps` (
   PRIMARY KEY (`symbol`,`type`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-CREATE TABLE IF NOT EXISTS `jlr` (
+create TABLE IF NOT EXISTS `jlr` (
   `symbol` char(6) NOT NULL,
     `type` varchar(10) NOT NULL,
   `s0` decimal(10,4) DEFAULT NULL,
@@ -48,6 +48,10 @@ CREATE TABLE IF NOT EXISTS `jlr` (
   `s8` decimal(10,4) DEFAULT NULL,
   `s9` decimal(10,4) DEFAULT NULL,
   `s10` decimal(10,4) DEFAULT NULL,
+  `r0` decimal(10,4) DEFAULT NULL,
+  `r1` decimal(10,4) DEFAULT NULL,
+  `r2` decimal(10,4) DEFAULT NULL,
+
   PRIMARY KEY (`symbol`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 -- 数据导出被取消选择。
