@@ -39,17 +39,23 @@ class MysqlWriterPipeline:
         # 执行sql语句
         cursor.execute("truncate roe")
         cursor.execute("truncate eps")
+        cursor.execute("truncate jlr")
         # 提交到数据库执行
         self.db.commit()
 
     def process_item(self, item, spider):
-        table = ""
+        table = item["table"]
 
+        '''
         if type(item) == items.ROEItem:
             table = "roe"
 
         if type(item) == items.EPSItem:
             table = "eps"
+
+        if type(item) == items.JLRItem:
+            table = "jlr"
+        '''
 
         # 使用cursor()方法获取操作游标
         cursor = self.db.cursor()

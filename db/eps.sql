@@ -34,6 +34,22 @@ CREATE TABLE IF NOT EXISTS `eps` (
   PRIMARY KEY (`symbol`,`type`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+CREATE TABLE IF NOT EXISTS `jlr` (
+  `symbol` char(6) NOT NULL,
+    `type` varchar(10) NOT NULL,
+  `s0` decimal(10,4) DEFAULT NULL,
+  `s1` decimal(10,4) DEFAULT NULL,
+  `s2` decimal(10,4) DEFAULT NULL,
+  `s3` decimal(10,4) DEFAULT NULL,
+  `s4` decimal(10,4) DEFAULT NULL,
+  `s5` decimal(10,4) DEFAULT NULL,
+  `s6` decimal(10,4) DEFAULT NULL,
+  `s7` decimal(10,4) DEFAULT NULL,
+  `s8` decimal(10,4) DEFAULT NULL,
+  `s9` decimal(10,4) DEFAULT NULL,
+  `s10` decimal(10,4) DEFAULT NULL,
+  PRIMARY KEY (`symbol`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 -- 数据导出被取消选择。
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
