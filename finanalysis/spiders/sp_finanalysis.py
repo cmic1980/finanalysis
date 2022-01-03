@@ -34,32 +34,32 @@ class SpFinanalysis(scrapy.Spider):
         for dataRow in dataRows:
             code = dataRow["code"]
             # EPS(基本)
-            if code == "EPSJB":
+            if code == "basicEPS":
                 item = self.convert_common_item(symbol, "eps", "jb", dataRow)
                 yield item
 
             # EPS(稀释)
-            if code == "EPSXS":
+            if code == "dilutedEPS":
                 item = self.convert_common_item(symbol, "eps", "xs", dataRow)
                 yield item
 
             # EPS(摊薄)
-            if code == "EPSTB":
+            if code == "EPS":
                 item = self.convert_common_item(symbol, "eps", "tb", dataRow)
                 yield item
 
             # ROE(摊薄)
-            if code == "ROETB":
+            if code == "ROE":
                 item = self.convert_common_item(symbol, "roe", "tb", dataRow)
                 yield item
 
             # ROE(加权平均)
-            if code == "ROEJJPJ":
+            if code == "ROEW":
                 item = self.convert_common_item(symbol, "roe", "jjpj", dataRow)
                 yield item
 
             # 净利润同比(YOY)
-            if code == "JLRTB":
+            if code == "NIYOY":
                 item = self.convert_common_item(symbol, "jlr", "tb", dataRow)
                 yield item
 
